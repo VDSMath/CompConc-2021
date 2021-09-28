@@ -8,7 +8,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 
-sem_t condt2, condt3, condt4;     //semaforos
+sem_t condt2, condt3;     //semaforos
 int cont = 0; //contador auxiliar
 
 //struct passada para as threads, identificador e texto a ser imprimido
